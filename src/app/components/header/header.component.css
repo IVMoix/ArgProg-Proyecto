@@ -37,5 +37,12 @@ header ul li a{
 }
 header ul li a::after{
     content: '';
+    background: yellow;
+    height: 9px;
+    position: absolute;
+    left: 1px;
+    z-index: -1;
+    bottom: 0;
+    right: -3px;
 
 }
